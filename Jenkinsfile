@@ -1,12 +1,5 @@
 pipeline {
-    agent any
-
-    stages {
-        stage('Clone Repo') {
-            steps {
-                git 'https://github.com/iam-aniketmore/FlaskApp.git'
-            }
-        }
+    agent an
 
         stage('Install Dependencies') {
             steps {
